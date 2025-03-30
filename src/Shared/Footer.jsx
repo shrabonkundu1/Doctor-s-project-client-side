@@ -3,9 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="bg-[#131213] text-white">
-      <footer className="footer sm:footer-horizontal w-[95%] mx-auto content md:pl-40 md:py-26 py-10 p-2 md:p-20">
+      <footer className="footer sm:footer-horizontal w-[95%] mx-auto content  md:py-26 py-10 p-2 md:p-16">
         <aside className="md:-mt-14 ">
-         <img className="h-40 w-40 -ml-8 md:-ml-0" src="https://i.ibb.co.com/vCgL3N5g/logo.png" alt="" />
+         <img className="h-40 w-40 -ml-8 md:-ml-0" src="https://i.ibb.co.com/QjT7Rnmw/Chat-GPT-Image-Mar-28-2025-04-06-08-PM-removebg-preview.png" alt="" />
           <p>
             Master Dental Sergary Ltd.
             <br />

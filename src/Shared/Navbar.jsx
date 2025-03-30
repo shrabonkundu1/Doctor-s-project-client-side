@@ -165,7 +165,7 @@ const Navbar = () => {
       : "text-gray-700";
 
   return (
-    <div className="md:py-5 py-2">
+    <div className=" ">
       <div className="navbar w-[90%] mx-auto">
         <div className="navbar-start">
           {/* Mobile Dropdown */}
@@ -233,7 +233,7 @@ const Navbar = () => {
           {/* Logo */}
           <img
             className="w-20 h-20 md:w-26 ml-4 md:h-26"
-            src="https://i.ibb.co.com/vCgL3N5g/logo.png"
+            src="https://i.ibb.co.com/QjT7Rnmw/Chat-GPT-Image-Mar-28-2025-04-06-08-PM-removebg-preview.png"
             alt="Logo"
           />
         </div>
