@@ -165,7 +165,7 @@ const Navbar = () => {
       : "text-gray-700";
 
   return (
-    <div className=" ">
+    <div className=" backdrop-blur-md fixed w-full shadow-lg top-0 z-50 ">
       <div className="navbar w-[90%] mx-auto">
         <div className="navbar-start">
           {/* Mobile Dropdown */}
@@ -232,8 +232,8 @@ const Navbar = () => {
 
           {/* Logo */}
           <img
-            className="w-20 h-20 md:w-26 ml-4 md:h-26"
-            src="https://i.ibb.co.com/QjT7Rnmw/Chat-GPT-Image-Mar-28-2025-04-06-08-PM-removebg-preview.png"
+            className="w-16 h-16 md:w-20 ml-4 md:h-20"
+            src="https://i.ibb.co.com/fdVXqBTz/50f9a326-1cff-4435-8c7f-775f88c763bd-removebg-preview.png"
             alt="Logo"
           />
         </div>
@@ -285,9 +285,11 @@ const Navbar = () => {
 
         {/* Login Button */}
         <div className="navbar-end">
-          <a className="rounded-full px-5 py-2 font-semibold bg-[#2d83c2] text-white ">
-            Login To Order
-          </a>
+          <Link>
+          <p className="bg-gradient-to-r from-blue-600 mt-5 to-blue-200 px-10 py-3 rounded-full text-white cursor-pointer">
+            Contact Us
+          </p>
+          </Link>
         </div>
       </div>
     </div>

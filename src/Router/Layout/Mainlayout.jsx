@@ -6,7 +6,9 @@ import Footer from '../../Shared/Footer';
 const Mainlayout = () => {
     return (
         <div className='min-h-screen'>
+            <div className='mb-16'>
             <Navbar></Navbar>
+            </div>
             <div>
             <Outlet></Outlet>
             </div>

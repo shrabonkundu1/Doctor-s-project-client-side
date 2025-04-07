@@ -5,7 +5,7 @@ const Service = () => {
     <div className="py-10">
       <div className="text-center space-y-4">
         <h3 className="text-6xl font-semibold font-[Playfair Display]">
-          Out Services
+          Our Services
         </h3>
         <p className="md:px-48 text-[18px]">
           Your Trusted Partner for Premium Dental Solutions - Providing
