@@ -11,6 +11,14 @@
 
 
 
+  /* bg Image */
+
+  #bgImage {
+    background-image: url("https://img.freepik.com/free-vector/mobile_677411-3342.jpg?semt=ais_hybrid&w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 
   /* button design: 
   bg-gradient-to-r from-blue-600 mt-5 to-blue-200 px-10 py-3 rounded-full text-white cursor-pointer

@@ -11,10 +11,12 @@ const Home = () => {
       <Banner></Banner>
       <About></About>
       {/* <Service></Service> */}
-      <div className="w-[90%] mx-auto my-24 mb-36">
-        <OurServices></OurServices>
+      <div id="" >
+       <div className="w-[90%] mx-auto py-16  "> <OurServices></OurServices></div>
       </div>
+      <div id="bgImage">
       <WorkStation></WorkStation>
+      </div>
     </div>
   );
 };
